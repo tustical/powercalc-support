@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PowerCalc Support</title>
+<meta name="description" content="Support for PowerCalc, an off-grid battery, load, charging and trip planning app.">
+<style>
+:root{--bg:#071326;--card:#0d1d35;--text:#f4f8ff;--muted:#a9bad1;--blue:#3f8cff;--cyan:#49d7ff;--gold:#ffb62e;--border:rgba(255,255,255,.1)}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:radial-gradient(circle at top,#0f2d57 0%,var(--bg) 45%,#050b16 100%);color:var(--text);line-height:1.55}
+.wrap{width:min(960px,calc(100% - 32px));margin:auto}
+header{padding:52px 0 30px;text-align:center}
+.brand{display:inline-flex;align-items:center;gap:16px}
+.logo{width:72px;height:72px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#0b2040,#173a6a);font-size:38px;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+h1{font-size:clamp(2.3rem,7vw,4rem);margin:0;letter-spacing:-.04em}
+.tag{color:var(--muted);max-width:690px;margin:10px auto 0}
+.hero,section{background:rgba(10,25,46,.94);border:1px solid var(--border);border-radius:20px;padding:24px;margin:22px 0}
+.hero{text-align:left;background:linear-gradient(135deg,rgba(63,140,255,.22),rgba(37,211,161,.08));box-shadow:0 18px 55px rgba(0,0,0,.25)}
+h2{margin-top:0}
+h3{margin-bottom:6px;color:#e6efff}
+p,li{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.item{padding:16px;border-radius:14px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06)}
+a{color:var(--cyan)}
+.btn{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:12px;background:linear-gradient(135deg,var(--blue),#285fff);color:white;text-decoration:none;font-weight:700}
+.note{border-left:4px solid var(--gold)}
+footer{text-align:center;color:#7f93ad;padding:0 0 34px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}header{padding-top:34px}.logo{width:58px;height:58px;font-size:31px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><div class="logo" aria-hidden="true">⚡</div><h1>PowerCalc</h1></div>
+    <p class="tag">Support for PowerCalc — the off-grid battery, load, charging and trip planning app.</p>
+    <div class="hero">
+      <h2>Need help?</h2>
+      <p>Email PowerCalc support and include a short description of the problem.</p>
+      <a class="btn" href="mailto:trevorappsupport@gmail.com">trevorappsupport@gmail.com</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<section>
+  <h2>Common Help Topics</h2>
+  <div class="grid">
+    <div class="item"><h3>Getting Started</h3><p>Add your battery setup, devices and charging sources. PowerCalc compares estimated daily use with estimated generation.</p></div>
+    <div class="item"><h3>Battery Capacity</h3><p>Enter battery capacity, usable percentage, state of charge and inverter efficiency to estimate available watt-hours.</p></div>
+    <div class="item"><h3>Loads & Devices</h3><p>Add each device with its wattage and estimated daily runtime to calculate estimated daily energy use.</p></div>
+    <div class="item"><h3>Solar & Charging</h3><p>Add solar panels or other charging sources with output, charging hours and efficiency to estimate daily generation.</p></div>
+    <div class="item"><h3>Trip Planning</h3><p>Create a trip scenario to estimate how your battery setup may perform over multiple days.</p></div>
+    <div class="item"><h3>PowerCalc Pro</h3><p>Pro includes saved trip scenarios, export tools, advanced planning features, presets and additional battery-bank options.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Purchases & Subscriptions</h2>
+  <h3>Restore Purchases</h3>
+  <p>If PowerCalc Pro is not showing after purchase, use <strong>Restore Purchases</strong> in the app while signed into the same Apple ID used for the purchase.</p>
+  <h3>Manage or Cancel</h3>
+  <p>Subscriptions purchased through Apple are managed through your Apple ID subscription settings.</p>
+</section>
+
+<section>
+  <h2>Troubleshooting</h2>
+  <ul>
+    <li>Close and reopen PowerCalc.</li>
+    <li>Check your battery, wattage, runtime, charging-hour and efficiency values.</li>
+    <li>If Pro features are missing, try Restore Purchases.</li>
+    <li>If the issue continues, email support with what happened.</li>
+  </ul>
+</section>
+
+<section class="note">
+  <h2>Important</h2>
+  <p>PowerCalc is a planning tool. Results are estimates based on the values you enter and are not live battery telemetry. Actual results can vary because of battery condition, temperature, charging losses, weather and real-world device use.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p><a href="mailto:trevorappsupport@gmail.com"><strong>trevorappsupport@gmail.com</strong></a></p>
+</section>
+</main>
+
+<footer><div class="wrap">PowerCalc Support</div></footer>
+</body>
+</html>
